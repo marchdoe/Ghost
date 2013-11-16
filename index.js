@@ -12,3 +12,4 @@ configLoader.loadConfig().then(function () {
     require('./core/server');
 }).otherwise(error.logAndThrowError);
 
+

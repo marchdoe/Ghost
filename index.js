@@ -11,5 +11,3 @@ configLoader.loadConfig().then(function () {
     // The server and its dependencies require a populated config
     require('./core/server');
 }).otherwise(error.logAndThrowError);
-
-
